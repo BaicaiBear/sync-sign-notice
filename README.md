@@ -4,6 +4,8 @@ A Minecraft Fabric mod that synchronizes sign content with a database and displa
 
 **THIS IS A CLIENT ONLY MOD.**
 
+[![Downloads on CurseForge](http://cf.way2muchnoise.eu/full_sync-sign-notice_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/sync-sign-notice) [![Downloads on Modrinth](https://img.shields.io/modrinth/dt/sync-sign-notice?logo=modrinth)](https://modrinth.com/mod/sync-sign-notice)
+
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for your Minecraft version
