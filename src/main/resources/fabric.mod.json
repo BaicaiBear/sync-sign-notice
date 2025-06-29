@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "sync-sign-notice",
+	"version": "${version}",
+	"name": "Sync Sign Notice",
+	"description": "To sync your sign in Minecraft with a remote mysql database",
+	"authors": [
+		"Bear Cabbage"
+	],
+	"contact": {
+		"homepage": "https://github.com/BaicaiBear",
+		"sources": "https://github.com/BaicaiBear/sync-sign-notice"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sync-sign-notice/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.bearcabbage.syncsignnotice.SyncSignNotice"
+		]
+	},
+	"mixins": [
+		"sync-sign-notice.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

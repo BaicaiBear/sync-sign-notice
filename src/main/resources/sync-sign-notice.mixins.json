@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "top.bearcabbage.syncsignnotice.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SignBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
